@@ -16,4 +16,12 @@ public class BankAccount {
     public double getBalance() {
         return balance;
     }
+
+    // methods
+    public void withdraw(double withdrawingAmount){
+         this.balance = this.balance - withdrawingAmount;
+    }
+    public void deposit(double depositedAmount){
+        this.balance = this.balance + depositedAmount;
+    }
 }
